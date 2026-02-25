@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tables</title>
+<style>
+table, td, th{
+  border:2px solid black;
+  border-collapse:collapse;
+  text-align:center;
+  padding:6px;
+}
+h2{
+  text-align:center;
+}
+</style>
+</head>
+<body>
+
+<h2>TABLE USING COLSPAN, ROWSPAN</h2>
+
+<table width="100%">
+<tr>
+<td rowspan="8">A</td>
+<td rowspan="7">B</td>
+<td rowspan="6">C</td>
+<td rowspan="5">D</td>
+<td rowspan="4">E</td>
+<td rowspan="3">F</td>
+<td>AH</td>
+<td rowspan="3">H</td>
+<td rowspan="7">I</td>
+<td rowspan="7">J</td>
+<td rowspan="7">K</td>
+<td rowspan="7">L</td>
+<td rowspan="8">M</td>
+</tr>
+
+<tr><td>G</td></tr>
+<tr><td>GH</td></tr>
+<tr><td colspan="3">N</td></tr>
+<tr><td colspan="4">O</td></tr>
+<tr><td colspan="5">P</td></tr>
+<tr><td colspan="6">Q</td></tr>
+<tr>
+<td>R</td><td>S</td><td>T</td><td>U</td>
+<td>V</td><td>W</td><td>X</td>
+</tr>
+<tr>
+<td colspan="13">Y</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>1</td><td>2</td><td>3</td><td>4</td>
+<td>5</td><td>6</td><td>7</td>
+<td>8</td><td>9</td><td>10</td>
+</tr>
+</table>
+
+<br><br>

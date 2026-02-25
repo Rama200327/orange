@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Preferences</title>
+</head>
+<body>
+
+  <h2>User Preferences</h2>
+
+  <form action="#" method="post">
+
+    <!-- About Me (Textarea) -->
+    <label for="about">About Me:</label><br>
+    <textarea id="about" name="about" rows="4" cols="40" placeholder="Write something about yourself..."></textarea>
+    <br><br>
+
+    <!-- Country Selection (Select & Option) -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="jo">Jordan</option>
+      <option value="us">USA</option>
+      <option value="uk">UK</option>
+    </select>
+    <br><br>
+
+    <!-- Contact Preference (Fieldset & Radio Buttons) -->
+    <fieldset>
+      <legend>Contact Preference</legend>
+      <input type="radio" id="contactEmail" name="contact" value="email">
+      <label for="contactEmail">Email</label>
+
+      <input type="radio" id="contactPhone" name="contact" value="phone">
+      <label for="contactPhone">Phone</label>
+    </fieldset>
+
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Save Preferences</button>
+
+  </form>
+
+</body>
+</html>
